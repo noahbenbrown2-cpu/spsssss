@@ -1,0 +1,3 @@
+import Link from "next/link";
+export const metadata = { title: "Thank You" };
+export default function Page(){return <section className="py-24"><div className="container max-w-3xl"><p className="font-black uppercase tracking-widest text-brand-red">Request received</p><h1 className="mt-3 text-5xl font-black tracking-tight">Thanks — we got your quote request.</h1><p className="mt-5 text-lg text-neutral-700">Set Piece Solutions will follow up soon. If this was the first form submission, check the inbox for FormSubmit confirmation.</p><Link href="/" className="mt-8 inline-flex rounded-full bg-brand-red px-6 py-4 font-black text-white">Back Home</Link></div></section>}

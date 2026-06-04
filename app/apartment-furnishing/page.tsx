@@ -1,0 +1,6 @@
+import { QuoteForm } from "@/components/QuoteForm";
+import { packages } from "@/lib/site";
+
+export const metadata = { title: "Apartment Furnishing Chicago", description: "Studio to 4-bedroom apartment furnishing packages in Chicago." };
+
+export default function Page(){return <><section className="py-20"><div className="container grid gap-10 lg:grid-cols-2"><div><p className="font-black uppercase tracking-widest text-brand-red">Apartment Furnishing Chicago</p><h1 className="mt-3 text-5xl font-black tracking-tight">Everything your unit needs, delivered and installed before move-in.</h1><p className="mt-5 text-lg leading-8 text-neutral-700">We create move-in-ready apartments for landlords, renters, Airbnb hosts, Furnished Finder hosts, and property managers. You avoid sourcing, hauling, assembly, placement, and removal headaches.</p></div><QuoteForm compact /></div></section><section className="bg-brand-cream py-16"><div className="container grid gap-5 md:grid-cols-2 lg:grid-cols-3">{packages.map(p=><div key={p.name} className="rounded-3xl bg-white p-6 shadow-sm"><h2 className="text-2xl font-black">{p.name}</h2><p className="mt-3 text-neutral-600">{p.description}</p><ul className="mt-5 grid gap-2 text-sm">{p.items.map(i=><li key={i}>✓ {i}</li>)}</ul></div>)}</div></section></>}

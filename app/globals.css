@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: light; }
+html { scroll-behavior: smooth; }
+body { margin: 0; background: #fff; color: #0A0A0A; }
+::selection { background: #C8102E; color: white; }
+.container { width: min(1120px, calc(100% - 32px)); margin: 0 auto; }
+.gradient-hero { background: radial-gradient(circle at top right, rgba(200,16,46,.18), transparent 28%), linear-gradient(135deg,#0A0A0A 0%,#171717 58%,#2b0c12 100%); }
