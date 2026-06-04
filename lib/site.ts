@@ -12,31 +12,31 @@ export const site = {
 export const packages = [
   {
     name: "Studio Package",
-    price: "Custom quote",
+    price: "Starting at $2500",
     description: "A complete setup for compact apartments and short-term housing.",
     items: ["Living/sleeping essentials", "Dining for two", "Delivery and setup", "Final layout styling"]
   },
   {
     name: "1 Bedroom Package",
-    price: "Custom quote",
+    price: "Starting at $3000",
     description: "A polished living room and bedroom setup built for quick move-ins.",
     items: ["Living room setup", "Bedroom setup", "Dining area", "Delivery, assembly, placement"]
   },
   {
     name: "2 Bedroom Package",
-    price: "Custom quote",
+    price: "Starting at $4200",
     description: "Ideal for travel nurse housing, roommates, and furnished rentals.",
     items: ["Living and dining", "Two bedroom setups", "Optional desk/workspace", "Turnkey installation"]
   },
   {
     name: "3 Bedroom Package",
-    price: "Custom quote",
+    price: "Starting at $5500",
     description: "A larger rental package designed for families and premium units.",
     items: ["Full living setup", "Three bedrooms", "Dining and storage", "Delivery and install"]
   },
   {
     name: "4 Bedroom Package",
-    price: "Custom quote",
+    price: "Starting at $7000",
     description: "A complete large-unit furnishing solution with one coordinated delivery.",
     items: ["Full-unit furnishing", "Four bedrooms", "Dining, storage, accents", "Move-in ready finish"]
   }
