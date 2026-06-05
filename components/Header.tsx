@@ -5,8 +5,8 @@ const links = [
   ["Apartment Furnishing", "/apartment-furnishing"],
   ["Packages", "/#packages"],
   ["Owners", "/investor-property-owner"],
-  ["Portfolio", "/portfolio"],
   ["Contact", "/contact"]
+  // removed ["Portfolio", "/portfolio"],
 ];
 
 export function Header() {
